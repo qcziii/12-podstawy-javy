@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Uruchamia check.sh wszystkich ćwiczeń i wypisuje podsumowanie.
+# Runs check.sh of all exercises and prints a summary.
 ROOT=$(cd "$(dirname "$0")/.." && pwd)
 ok=0; fail=0
 for c in "$ROOT"/cwiczenia/*/; do

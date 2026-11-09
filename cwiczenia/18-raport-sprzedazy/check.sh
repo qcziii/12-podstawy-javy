@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Ćwiczenie 18-raport-sprzedazy: Raport sprzedaży na streamach
-# Uruchom: ./cwiczenia/18-raport-sprzedazy/check.sh (z dowolnego katalogu). Kompiluje ćwiczenie i uruchamia jego testy.
+# Check for exercise 18-raport-sprzedazy (the description is printed below)
+# Run: ./cwiczenia/18-raport-sprzedazy/check.sh (from any directory). Compiles the exercise and runs its tests.
 CW_DIR=$(cd "$(dirname "$0")" && pwd)
 source "$CW_DIR/../../scripts/lib.sh"
 echo "Ćwiczenie 18-raport-sprzedazy: Raport sprzedaży na streamach"

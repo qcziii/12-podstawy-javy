@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Rodzic i agregat: `mvn compile` w tym katalogu kompiluje wszystkie ćwiczenia naraz (i otwiera je razem w IntelliJ). -->
+<!-- Parent and aggregator: `mvn compile` in this directory compiles all exercises at once (and opens them together in IntelliJ). -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -72,7 +72,7 @@
                     <version>3.5.4</version>
                     <configuration>
                         <trimStackTrace>true</trimStackTrace>
-                        <!-- W raportach (i w check.sh) nazwy testów z @DisplayName. -->
+                        <!-- Test names from @DisplayName in the reports (and in check.sh). -->
                         <statelessTestsetReporter implementation="org.apache.maven.plugin.surefire.extensions.junit5.JUnit5Xml30StatelessReporter">
                             <usePhrasedTestCaseMethodName>true</usePhrasedTestCaseMethodName>
                         </statelessTestsetReporter>

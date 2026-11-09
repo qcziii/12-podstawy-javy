@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Ćwiczenie 16-kalkulator-enum: Kalkulator na enumie
-# Uruchom: ./cwiczenia/16-kalkulator-enum/check.sh (z dowolnego katalogu). Kompiluje ćwiczenie i uruchamia jego testy.
+# Check for exercise 16-kalkulator-enum (the description is printed below)
+# Run: ./cwiczenia/16-kalkulator-enum/check.sh (from any directory). Compiles the exercise and runs its tests.
 CW_DIR=$(cd "$(dirname "$0")" && pwd)
 source "$CW_DIR/../../scripts/lib.sh"
 echo "Ćwiczenie 16-kalkulator-enum: Kalkulator na enumie"

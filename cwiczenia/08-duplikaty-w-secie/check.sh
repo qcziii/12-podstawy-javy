@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Ćwiczenie 08-duplikaty-w-secie: HashSet przepuszcza duplikaty produktów
-# Uruchom: ./cwiczenia/08-duplikaty-w-secie/check.sh (z dowolnego katalogu). Kompiluje ćwiczenie i uruchamia jego testy.
+# Check for exercise 08-duplikaty-w-secie (the description is printed below)
+# Run: ./cwiczenia/08-duplikaty-w-secie/check.sh (from any directory). Compiles the exercise and runs its tests.
 CW_DIR=$(cd "$(dirname "$0")" && pwd)
 source "$CW_DIR/../../scripts/lib.sh"
 echo "Ćwiczenie 08-duplikaty-w-secie: HashSet przepuszcza duplikaty produktów"
